@@ -1,0 +1,13 @@
+INFO 09-26 19:28:32 config.py:1066] Loaded 1 replica groups, 1 total replicas, 0 explicit pools
+INFO 09-26 19:28:32 session_utils.py:72] Session identity: no session_id column, treating all 2 requests as independent single-turn sessions
+INFO 09-26 19:28:32 trace_request_length_generator.py:96] Loaded request length trace file /scratch/djk6507/Lab1/Agent-AE/Vidur-Agent/lab1/results/exp2_4d_chunk_4096_second_prompt_4000/vidur/trace.csv with 2 requests
+INFO 09-26 19:28:35 base_global_scheduler.py:83] Replica 0 (id=0) | role=agg | model=Qwen/Qwen2.5-32B | TP=4, PP=1 | device=a100 | GPU blocks=58848, block_size=16 | scheduler=vllm_v1, chunk_size=4096
+INFO 09-26 19:28:35 model_pool_global_scheduler.py:59] Prefill pools: {0: [0]}
+INFO 09-26 19:28:35 model_pool_global_scheduler.py:61] Decode pools: {}
+INFO 09-26 19:28:35 model_pool_global_scheduler.py:63] Cross-node pairs: {}
+INFO 09-26 19:28:35 simulator.py:67] Starting simulation with cluster: Cluster({'id': 0, 'num_replicas': 1, 'replicas': [{'id': ReplicaId(id=0), 'num_pipeline_stages': 1, 'num_tensor_parallel_workers': 4, 'role': 'agg'}]})
+INFO 09-26 19:28:35 simulator.py:121] Simulation ended at: 16.95969582446801s
+INFO 09-26 19:28:35 simulator.py:124] Writing output
+INFO 09-26 19:28:35 simulator.py:127] Metrics written
+INFO 09-26 19:28:35 simulator.py:179] Replica 0 eviction metrics: evictions=0, token_hit_rate=0.0000 (0/5024 tokens), unique_evicted_hashes=0, decode_admissions=0, decode_gate_holds=0
+INFO 09-26 19:28:35 simulator.py:192] Eviction metrics written

@@ -1,0 +1,6 @@
+# Warm-up 1: prompt length vs latency (single request).
+# prompt_len=256, output_len=128.
+# Run with default --chunk-size 4096.
+# Questions: TTFT vs prompt, TPOT vs prompt, e2e from TTFT+TPOT, prefill vs decode share.
+arrival_time,prompt_len,output_len,count
+0.0,256,128,1

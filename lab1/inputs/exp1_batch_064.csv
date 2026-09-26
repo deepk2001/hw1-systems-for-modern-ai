@@ -1,0 +1,6 @@
+# Experiment 1: batch size vs latency.
+# N=64 identical requests at t=0, prompt_len=16, output_len=128.
+# Uses the count column. Run with default --chunk-size 4096.
+# Questions: TTFT vs N, TPOT vs N.
+arrival_time,prompt_len,output_len,count
+0.0,16,128,64

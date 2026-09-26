@@ -1,0 +1,8 @@
+# Experiment 2 / 4c: sweep the interrupting request's prompt length.
+# Request 0 unchanged: prompt=1024, output=512, t=0.
+# Request 1: prompt=2048, output=64, t=1.0s.
+# Discuss request 0 worst token gap and TPOT vs second prompt length.
+# Run with default --chunk-size 4096.
+arrival_time,prompt_len,output_len,count
+0.0,1024,512,1
+1.0,2048,64,1

@@ -1,0 +1,9 @@
+{
+  "num_evictions": 0,
+  "num_unique_evicted_hashes": 0,
+  "sum_prefill_tokens": 256,
+  "sum_kvhit_tokens": 0,
+  "token_cache_hit_rate": 0.0,
+  "decode_admissions": 0,
+  "decode_gate_holds": 0
+}

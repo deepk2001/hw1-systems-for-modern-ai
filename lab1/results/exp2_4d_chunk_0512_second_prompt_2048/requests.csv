@@ -1,0 +1,3 @@
+request,arrival_s,prompt_len,output_len,queue_ms,ttft_ms,tpot_ms,e2e_s,worst_gap_ms,worst_gap_token,restarts
+0.0,0.0,1024.0,512.0,0.0,124.931,32.534,16.75,66.326,33,0
+1.0,1.0,2048.0,64.0,26.717,328.031,32.203,2.357,32.203,2,0
