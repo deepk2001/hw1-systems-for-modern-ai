@@ -1,0 +1,6 @@
+# One row per request. Lines starting with # are comments.
+# arrival_time: seconds after the start; prompt_len / output_len: tokens;
+# count (optional): repeat the row that many times.
+arrival_time,prompt_len,output_len,count
+0.0,1024,128,1
+0.5,512,256,2

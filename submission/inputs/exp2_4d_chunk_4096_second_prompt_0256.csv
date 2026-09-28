@@ -1,0 +1,7 @@
+# Experiment 2 / 4d: same requests as 4c, different prefill chunk size.
+# Must run with: --chunk-size 4096
+# Request 0: prompt=1024, output=512, t=0.
+# Request 1: prompt=256, output=64, t=1.0s.
+arrival_time,prompt_len,output_len,count
+0.0,1024,512,1
+1.0,256,64,1

@@ -1,0 +1,6 @@
+# Experiment 2 / 4a: baseline, first request alone.
+# prompt_len=1024, output_len=512, arrival=0.
+# Keep this first request unchanged in 4b–4d.
+# Run with default --chunk-size 4096.
+arrival_time,prompt_len,output_len,count
+0.0,1024,512,1
